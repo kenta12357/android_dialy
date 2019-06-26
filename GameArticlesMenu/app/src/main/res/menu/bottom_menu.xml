@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_all"
+        android:title="ALL"
+        android:icon="@drawable/ic_archive_black_24dp"
+        />
+
+    <item
+        android:id="@+id/bottom_new"
+        android:title="NEW"
+        android:icon="@drawable/ic_new_releases_black_24dp"
+        />
+
+    <item
+        android:id="@+id/bottom_history"
+        android:title="HISTORY"
+        android:icon="@drawable/ic_history_black_24dp"
+        />
+</menu>

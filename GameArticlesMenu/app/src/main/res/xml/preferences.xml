@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="その他"
+        >
+
+        <PreferenceScreen
+            android:key="button_source_select"
+            android:title="ソースの設定"
+            android:persistent="false"
+            />
+
+        <EditTextPreference
+            android:title="保存する記事の数"
+            android:key="number_article"
+            android:defaultValue="100"
+            android:inputType="number"
+            android:summary="上限は1000です"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
